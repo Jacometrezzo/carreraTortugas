@@ -37,6 +37,7 @@ class Circuito():
                 if tortuga.position()[0] >= self.__finishline:
                     hayGanador = True
                     print('Ha ganado la tortuga de color {}'.format(tortuga.color()[0]))
+                    break
                     
         
         
